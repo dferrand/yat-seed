@@ -9,10 +9,11 @@
         <title></title>
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="styles/bootstrap.min.css"/>
         <link rel="stylesheet" href="styles/main.css"/>
 
     </head>
-    <body ng-app="gatSeedApp">
+    <body ng-app="myApp">
 
         <!--[if lt IE 8]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -21,7 +22,9 @@
         <!-- Add your site or application content here -->
         <div class="container" ng-view></div>
 
+        <script src="scripts/vendor/jquery-1.8.1.min.js"></script>
         <script src="scripts/vendor/angular.js"></script>
+        <script src="scripts/vendor/bootstrap.js"></script>
 
         <!-- build:js scripts/scripts.js -->
         <script src="scripts/app.js"></script>
