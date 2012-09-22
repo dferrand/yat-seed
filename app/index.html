@@ -29,9 +29,21 @@
             }
         </script>
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+        <!-- Uncomment to enable ngResource module. Don't forget to enable the fallback bellow.
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular-resource.min.js"></script>
+        -->
+        <!-- Uncomment to enable ngSanitize module. Don't forget to enable the fallback bellow.
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular-sanitize.min.js"></script>
+        -->
         <script>
             if(typeof angular == 'undefined') {
                 document.write(decodeURIComponent('%3Cscript src="scripts/vendor/angular.min.js"%3E%3C/script%3E'));
+                /* Uncomment to enable ngResource module.
+                document.write(decodeURIComponent('%3Cscript src="scripts/vendor/angular-resource.min.js"%3E%3C/script%3E'));
+                */
+                /* Uncomment to enable ngSanitize module.
+                 document.write(decodeURIComponent('%3Cscript src="scripts/vendor/angular-sanitize.min.js"%3E%3C/script%3E'));
+                 */
             }
         </script>
         <script src="scripts/vendor/bootstrap.js"></script>
